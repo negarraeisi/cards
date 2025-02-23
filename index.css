@@ -1,0 +1,92 @@
+@font-face {
+  font-family: page;
+  src: url("Lato-Regular.ttf");
+}
+
+html {
+  font-family: page;
+  margin: 0;
+  padding: 0;
+}
+
+#card1,
+#card2 {
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.quote-box {
+  position: relative;
+  background: #333131;
+  color: #ffff;
+  padding: 15px;
+  width: 300px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-style: italic;
+  margin: 10px;
+  margin-bottom: 25px;
+}
+
+.quote-box::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #333131;
+}
+
+.cardInfo {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  margin: 25px;
+}
+
+h6 {
+  margin: 15px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+main {
+  display: flex;
+  margin: 50px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#card2 p {
+  margin: 10px;
+  margin-bottom: 45px;
+}
+
+#card3 {
+  width: 700px;
+  display: flex;
+  margin: 40px;
+  gap: 40px;
+}
+
+#card3Info {
+  border: #333131 solid 2px;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+h5,
+h4 {
+  margin: 5px;
+}
+
+#card3 img {
+  border-radius: 30px;
+}
